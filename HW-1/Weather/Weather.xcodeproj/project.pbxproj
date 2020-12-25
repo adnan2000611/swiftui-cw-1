@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0436C07E2595FEFE009F7331 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436C07D2595FEFE009F7331 /* WeatherApp.swift */; };
+		0436C0802595FEFE009F7331 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436C07F2595FEFE009F7331 /* ContentView.swift */; };
+		0436C0822595FF03009F7331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0436C0812595FF03009F7331 /* Assets.xcassets */; };
+		0436C0852595FF03009F7331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0436C0842595FF03009F7331 /* Preview Assets.xcassets */; };
+		0436C08F259613D6009F7331 /* SteelworksVintageDemo-P5wE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C08E259613D6009F7331 /* SteelworksVintageDemo-P5wE.otf */; };
+		0436C09225961BDF009F7331 /* Arslan-Wessam.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09125961BDF009F7331 /* Arslan-Wessam.ttf */; };
+		0436C09525963141009F7331 /* bakery.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09425963141009F7331 /* bakery.ttf */; };
+		0436C0A025963287009F7331 /* LonglessDemoItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09825963287009F7331 /* LonglessDemoItalic.ttf */; };
+		0436C0A125963287009F7331 /* DEMO - PERSONAL USE ONLY - RaisProject.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09925963287009F7331 /* DEMO - PERSONAL USE ONLY - RaisProject.txt */; };
+		0436C0A225963287009F7331 /* LonglessDemoLine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09A25963287009F7331 /* LonglessDemoLine.ttf */; };
+		0436C0A325963287009F7331 /* LonglessDemoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09B25963287009F7331 /* LonglessDemoRegular.ttf */; };
+		0436C0A425963287009F7331 /* LonglessDemoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09C25963287009F7331 /* LonglessDemoBold.ttf */; };
+		0436C0A525963287009F7331 /* LonglessDemoBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09D25963287009F7331 /* LonglessDemoBoldItalic.ttf */; };
+		0436C0A625963287009F7331 /* LonglessDemoLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09E25963287009F7331 /* LonglessDemoLight.ttf */; };
+		0436C0A725963287009F7331 /* LonglessDemoLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0436C09F25963287009F7331 /* LonglessDemoLightItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0436C07A2595FEFE009F7331 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0436C07D2595FEFE009F7331 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
+		0436C07F2595FEFE009F7331 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0436C0812595FF03009F7331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0436C0842595FF03009F7331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0436C0862595FF03009F7331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0436C08E259613D6009F7331 /* SteelworksVintageDemo-P5wE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SteelworksVintageDemo-P5wE.otf"; sourceTree = "<group>"; };
+		0436C09125961BDF009F7331 /* Arslan-Wessam.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arslan-Wessam.ttf"; sourceTree = "<group>"; };
+		0436C09425963141009F7331 /* bakery.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bakery.ttf; sourceTree = "<group>"; };
+		0436C09825963287009F7331 /* LonglessDemoItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LonglessDemoItalic.ttf; sourceTree = "<group>"; };
+		0436C09925963287009F7331 /* DEMO - PERSONAL USE ONLY - RaisProject.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DEMO - PERSONAL USE ONLY - RaisProject.txt"; sourceTree = "<group>"; };
+		0436C09A25963287009F7331 /* LonglessDemoLine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LonglessDemoLine.ttf; sourceTree = "<group>"; };
+		0436C09B25963287009F7331 /* LonglessDemoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LonglessDemoRegular.ttf; sourceTree = "<group>"; };
+		0436C09C25963287009F7331 /* LonglessDemoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LonglessDemoBold.ttf; sourceTree = "<group>"; };
+		0436C09D25963287009F7331 /* LonglessDemoBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LonglessDemoBoldItalic.ttf; sourceTree = "<group>"; };
+		0436C09E25963287009F7331 /* LonglessDemoLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LonglessDemoLight.ttf; sourceTree = "<group>"; };
+		0436C09F25963287009F7331 /* LonglessDemoLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LonglessDemoLightItalic.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0436C0772595FEFE009F7331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0436C0712595FEFE009F7331 = {
+			isa = PBXGroup;
+			children = (
+				0436C07C2595FEFE009F7331 /* Weather */,
+				0436C07B2595FEFE009F7331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0436C07B2595FEFE009F7331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0436C07A2595FEFE009F7331 /* Weather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0436C07C2595FEFE009F7331 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				0436C07D2595FEFE009F7331 /* WeatherApp.swift */,
+				0436C07F2595FEFE009F7331 /* ContentView.swift */,
+				0436C0812595FF03009F7331 /* Assets.xcassets */,
+				0436C08D2596132C009F7331 /* Fonts */,
+				0436C0862595FF03009F7331 /* Info.plist */,
+				0436C0832595FF03009F7331 /* Preview Content */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		0436C0832595FF03009F7331 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0436C0842595FF03009F7331 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0436C08D2596132C009F7331 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0436C09725963287009F7331 /* longless */,
+				0436C08E259613D6009F7331 /* SteelworksVintageDemo-P5wE.otf */,
+				0436C09425963141009F7331 /* bakery.ttf */,
+				0436C09125961BDF009F7331 /* Arslan-Wessam.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0436C09725963287009F7331 /* longless */ = {
+			isa = PBXGroup;
+			children = (
+				0436C09825963287009F7331 /* LonglessDemoItalic.ttf */,
+				0436C09925963287009F7331 /* DEMO - PERSONAL USE ONLY - RaisProject.txt */,
+				0436C09A25963287009F7331 /* LonglessDemoLine.ttf */,
+				0436C09B25963287009F7331 /* LonglessDemoRegular.ttf */,
+				0436C09C25963287009F7331 /* LonglessDemoBold.ttf */,
+				0436C09D25963287009F7331 /* LonglessDemoBoldItalic.ttf */,
+				0436C09E25963287009F7331 /* LonglessDemoLight.ttf */,
+				0436C09F25963287009F7331 /* LonglessDemoLightItalic.ttf */,
+			);
+			path = longless;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0436C0792595FEFE009F7331 /* Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0436C0892595FF03009F7331 /* Build configuration list for PBXNativeTarget "Weather" */;
+			buildPhases = (
+				0436C0762595FEFE009F7331 /* Sources */,
+				0436C0772595FEFE009F7331 /* Frameworks */,
+				0436C0782595FEFE009F7331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weather;
+			productName = Weather;
+			productReference = 0436C07A2595FEFE009F7331 /* Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0436C0722595FEFE009F7331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0436C0792595FEFE009F7331 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 0436C0752595FEFE009F7331 /* Build configuration list for PBXProject "Weather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0436C0712595FEFE009F7331;
+			productRefGroup = 0436C07B2595FEFE009F7331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0436C0792595FEFE009F7331 /* Weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0436C0782595FEFE009F7331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0436C0A325963287009F7331 /* LonglessDemoRegular.ttf in Resources */,
+				0436C0A025963287009F7331 /* LonglessDemoItalic.ttf in Resources */,
+				0436C0852595FF03009F7331 /* Preview Assets.xcassets in Resources */,
+				0436C0822595FF03009F7331 /* Assets.xcassets in Resources */,
+				0436C0A725963287009F7331 /* LonglessDemoLightItalic.ttf in Resources */,
+				0436C08F259613D6009F7331 /* SteelworksVintageDemo-P5wE.otf in Resources */,
+				0436C0A225963287009F7331 /* LonglessDemoLine.ttf in Resources */,
+				0436C09225961BDF009F7331 /* Arslan-Wessam.ttf in Resources */,
+				0436C0A525963287009F7331 /* LonglessDemoBoldItalic.ttf in Resources */,
+				0436C0A425963287009F7331 /* LonglessDemoBold.ttf in Resources */,
+				0436C0A625963287009F7331 /* LonglessDemoLight.ttf in Resources */,
+				0436C09525963141009F7331 /* bakery.ttf in Resources */,
+				0436C0A125963287009F7331 /* DEMO - PERSONAL USE ONLY - RaisProject.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0436C0762595FEFE009F7331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0436C0802595FEFE009F7331 /* ContentView.swift in Sources */,
+				0436C07E2595FEFE009F7331 /* WeatherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0436C0872595FF03009F7331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0436C0882595FF03009F7331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0436C08A2595FF03009F7331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Weather/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ENSY7H9WG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adnan.Weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0436C08B2595FF03009F7331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Weather/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ENSY7H9WG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adnan.Weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0436C0752595FEFE009F7331 /* Build configuration list for PBXProject "Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0436C0872595FF03009F7331 /* Debug */,
+				0436C0882595FF03009F7331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0436C0892595FF03009F7331 /* Build configuration list for PBXNativeTarget "Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0436C08A2595FF03009F7331 /* Debug */,
+				0436C08B2595FF03009F7331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0436C0722595FEFE009F7331 /* Project object */;
+}
